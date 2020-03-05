@@ -1,0 +1,28 @@
+{
+  "name": "tokenservice",
+  "version": "1.0.0",
+  "description": "Token management api",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianmmonteiro/tokenService.git"
+  },
+  "keywords": [
+    "REST"
+  ],
+  "author": "adrian marques monteiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrianmmonteiro/tokenService/issues"
+  },
+  "homepage": "https://github.com/adrianmmonteiro/tokenService#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.2",
+    "request": "^2.88.2"
+  }
+}
